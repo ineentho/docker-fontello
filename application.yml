@@ -33,7 +33,7 @@ locales:
 
   # Application locale used by default (first enabled one if not set).
   #
-  default: en-US
+  - en-US
 
   # # List of enabled locales (all found locales by default).
   # enabled:
@@ -89,3 +89,8 @@ bind:
   #    res.end('Invalid host ' + req.headers.host);
   #  }
 
+
+robots: |
+  User-Agent: *
+  #
+  Disallow: /download

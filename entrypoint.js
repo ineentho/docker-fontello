@@ -39,7 +39,7 @@ var cleanupFunc = function(signal) {
   }
 }
 var startFontello = function() {
-  fontello = childProcess.spawn('./fontello.js')
+  fontello = childProcess.spawn('./server.js')
   setupLogging(fontello)
 }
 
